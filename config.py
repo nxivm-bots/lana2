@@ -30,18 +30,18 @@ PAYMENT_TEXT = os.getenv('PAYMENT_TEXT', '<b>To get Plan and payment details pre
 
 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://denji3494:denji3494@cluster0.bskf1po.mongodb.net/")
-DB_NAME = os.environ.get("DATABASE_NAME", "lana3reqdsubxyz")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster10")
 JOIN_REQ_DB = os.environ.get("JOIN_REQ_DB", DB_URI)
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002075726565")) #database save channel id 
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002309030392")) #database save channel id 
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001974662693")) # Replace with your channel ID
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002558280988"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002691877508"))
 
 
 #Shortner (token system) 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "just2earn.com") 
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "7e100dd62679b6fc9aea48ea106347edad521d7f")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "gyanilinks.com") 
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "e87515f6796634ef730c9616cc79edaec64ed6aa")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 3600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/tutorita/19")
@@ -55,7 +55,7 @@ START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nI Can Store Priv
 
 try:
     ADMINS=[6663845789]
-    for x in (os.environ.get("ADMINS", "6933669203 6695586027 6020516635 6663845789").split()):
+    for x in (os.environ.get("ADMINS", "6933669203 6663845789").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")

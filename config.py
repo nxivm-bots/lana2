@@ -4,7 +4,7 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7130558350:AAG7UpTkt9zEJz_JUK8s5DWzv-bRFiLVrX4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7548080330:AAHnn8MYkLk7n6whYwvHfI6OXczwXau3IpQ")
 APP_ID = int(os.environ.get("APP_ID", "22505271"))
 API_HASH = os.environ.get("API_HASH", "c89a94fcfda4bc06524d0903977fc81e")
 
@@ -12,7 +12,7 @@ BAN = int(os.environ.get("BAN", "1110013190")) #Owner user id - dont chnge
 OWNER = os.environ.get("OWNER", "odacchi") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "1110013191")) #Owner user id
 OWNER_USERNAME = os.environ.get('OWNER_USERNAME', 'odacchi')
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Bloods_Stashy") # WITHOUR @
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Bloods_support") # WITHOUR @
 CHANNEL = os.environ.get("CHANNEL", "Bloods_Onlyfans") # WITHOUR @
 
 #auto delete
@@ -34,17 +34,17 @@ DB_NAME = os.environ.get("DATABASE_NAME", "lana3reqdsubxyz")
 JOIN_REQ_DB = os.environ.get("JOIN_REQ_DB", DB_URI)
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002075726565")) #database save channel id 
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002272040806")) # Replace with your channel ID
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002289232467"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002027563292"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001974662693")) # Replace with your channel ID
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002558280988"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002691877508"))
 
 
 #Shortner (token system) 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "just2earn.com") 
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "7e100dd62679b6fc9aea48ea106347edad521d7f")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 3600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/open_my_linkz/7")
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/tutorita/19")
 
 # ignore this one
 SECONDS = int(os.getenv("SECONDS", "200")) # auto delete in seconds
